@@ -13,11 +13,14 @@ class parent{
     void Details(){
         System.out.println(Name+" ia a parent.");
     }
+    void character(){
+        System.out.println(Name+" is Strict.");
+    }
 }
 public class child extends parent{
     String name;
     String gender;
     void details(){
         System.out.println(name+" is a "+gender);
-    }
+    } 
 }

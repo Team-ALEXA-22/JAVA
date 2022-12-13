@@ -2,27 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package inheritance;
+package constructor;
 
 /**
  *
  * @author ABINESH JAIN A J
  */
-public class Inheritance {
+public class Constructor {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        child dora=new child();
-        dora.name="Dora";
-        dora.gender="female";
-        dora.details();
-        
-        dora.Name="Papa";
-        dora.Details();
-        dora.character();
-
-    }  
+        alexa teams=new alexa();
+        teams.details();
+        alexa team=new alexa(76);
+        team.details();
+    } 
 }
